@@ -1,0 +1,48 @@
+/*estilo desktop - - - - clases*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+    &__#grilla2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header" "quinta" "footer";}
+
+    &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: 1px;
+        margin-left: -132px;}
+    
+    &__clases{display: flex;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: aqua;
+        font-size: x-large;
+        margin-left: 2px;
+        color: blue;
+        justify-content: space-between;
+        height: 70px;
+        align-items: center;
+        padding: 10px;
+        margin-right: -96px;
+        grid-area: clases;}
+
+    &__links__c{margin-left: 579px;
+        margin-top: -49px;
+        font-size: x-large;
+        font-weight: 500;}
+        &__a{text-decoration: none;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        &__nav a{font-weight: 600;
+            padding-right: 10px;}     
+        &__nav a:hover{color: white;}}
+
+    &__pie__clases{grid-area: pie__clases;
+        background-color: black;
+        padding: 20px;
+        height: 360px;
+        margin-left: -20px;
+        margin-right: -20px;}        

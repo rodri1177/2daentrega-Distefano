@@ -1,0 +1,21 @@
+{
+  "name": "pakete_santos",
+  "version": "1.0.0",
+  "description": "paquete de Sass de coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+"build-css": "node-sass --include-path scss clase-sass/sass_vsc/main.scss style/copystyle.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+  
+},
+  "author": "Rodrigo Distefano",
+  "license": "ISC",
+
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+
+}

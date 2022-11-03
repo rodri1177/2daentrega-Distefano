@@ -1,0 +1,32 @@
+/*estilo desktop - - - - estudio*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+    &__#grilla3{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header" "quinta" "footer";}
+
+    &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: 1px;
+        margin-left: -132px;}
+    
+    &__headest1{grid-area: headest1;
+        margin-left: 59px;}
+
+    &__links{grid-area: links;
+        margin-right: 1226px;}
+
+    &__pie__estudio{grid-area: pie__estudio;
+        background-color: black;
+        padding: 20px;
+        height: 360px;
+        margin-left: -20px;
+        margin-right: -20px;} 
+        
+}

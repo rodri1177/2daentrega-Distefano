@@ -1,0 +1,32 @@
+/*estilo desktop - - - - nosotros*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+    &__#grilla5{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header" "quinta" "footer";}
+
+    &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: 1px;
+        margin-left: -132px;}
+    
+    &__div.headernos{grid-area: headernos;
+        margin-left: 59px;}
+
+    &__nav.noslinks{grid-area: noslinks;
+        margin-right: 1226px;}
+
+    &__div.nospie__nosotros{grid-area: nospie__nosotros;
+        background-color: black;
+        padding: 20px;
+        height: 360px;
+        margin-left: -20px;
+        margin-right: -20px;} 
+        
+}

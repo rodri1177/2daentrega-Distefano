@@ -1,0 +1,22 @@
+.subtitulos{
+    
+    &__subtitulos__izq__tit{color: blue;  
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            margin-left: 100px;}
+    
+    &__subtitulos__cen__tit{margin-top: -52px;
+                            text-align: center;
+                            color: blue;
+                            font-weight: 700;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            font-size: medium;}
+                                        
+    &__subtitulos__der__tit{text-align: right;
+                            color: blue;
+                            font-weight: 700;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            font-size: medium;
+                             margin-right: 135px;
+                            margin-top: -50px;}
+                                                 
+        }

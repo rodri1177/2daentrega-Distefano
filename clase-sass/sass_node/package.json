@@ -1,0 +1,12 @@
+{
+  "name": "pakete_santos",
+  "version": "1.0.0",
+  "description": "paquete de Sass de coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  
+},
+  "author": "Rodrigo Distefano",
+  "license": "ISC"
+}

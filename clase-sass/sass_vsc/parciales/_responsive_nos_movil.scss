@@ -1,0 +1,43 @@
+/*estilo movil - - - - nosotros*/
+
+@media only screen and (max-width: 320px){
+  
+    &__#grilla5{
+        display: grid;
+        justify-content: center;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "header" "quinta" "footer";}
+        
+        &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+                width: 100%;
+                padding-right: var(--bs-gutter-x,.75rem);
+                padding-left: var(--bs-gutter-x,.75rem);
+                margin-right: 1px;
+                margin-left: -75px;}
+        
+        &__div.headernos{grid-area: headernos;
+                margin-left: 353px;}
+    
+        &__nav.noslinks{grid-area: noslinks;
+                margin-right: 1295px;
+                margin-top: -8px;}
+  
+        &__div.quinta__img{grid-area: quinta__img;
+                height: 317px;
+                margin-left: 411px;}
+        
+        &__div.txtnos{grid-area: txtnos;
+                width: 559px;
+                padding: 2px;
+                margin-left: 233px;
+                margin-top: 10px;}
+    
+            &__div.nospie__nosotros{grid-area: nospie__nosotros;
+                background-color: black;
+                padding: 20px;
+                height: 364px;
+                margin-left: 315px;
+                margin-right: 59px;}     
+    }
+    

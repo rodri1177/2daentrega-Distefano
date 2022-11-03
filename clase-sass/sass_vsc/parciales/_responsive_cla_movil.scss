@@ -1,0 +1,33 @@
+/*estilo movil - - - - clases*/
+
+@media only screen and (max-width: 320px){
+  
+    &__#grilla2{
+        display: grid;
+        justify-content: center;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "header" "quinta" "footer";}
+        
+        &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+                width: 100%;
+                padding-right: var(--bs-gutter-x,.75rem);
+                padding-left: var(--bs-gutter-x,.75rem);
+                margin-right: 1px;
+                margin-left: -75px;}
+        
+        &__clases{grid-area: clases;
+                margin-left: 353px;}
+    
+        &__links__c{grid-area: links__c;
+                margin-right: 1295px;
+                margin-top: -8px;}
+  
+            &__pie__clases{grid-area: pie__clases;
+                background-color: black;
+                padding: 20px;
+                height: 364px;
+                margin-left: 315px;
+                margin-right: 59px;}     
+    }
+    

@@ -1,0 +1,93 @@
+/*estilo movil - - - - index*/
+
+@media only screen and (max-width: 320px){
+  
+    &__#grilla{
+      display: grid;
+      justify-content: center;
+      grid-template-columns:1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "header" "principal" "segundo" "footer";}
+
+      &__header{grid-area: header; 
+                       margin-right: -1225px;}    
+  
+      &__div.header{grid-area: header; 
+                       margin-left: 141px; 
+                       margin-right:-223px;}
+  
+      &__nav.links{grid-area: links; 
+                        margin-right: 7px;}
+          
+                        &__div.cafe{grid-area: cafe;
+                        display: flex;
+                        margin-left: 447px;
+                        height: 433px;
+                        margin-bottom: -329px;}
+          
+                        &__div.principal__slogan {grid-area: principal__slogan;
+                        margin-left: -852px;
+                        font-size: x-large;
+                        width: 192px;}
+  
+                        &__div.principal__texto {grid-area: principal__texto;
+                        grid-area: principal__texto;
+                        margin-bottom: -1078px;
+                        margin-left: -343px;
+                        margin-right: -531px;
+                        width: 879px;}
+          
+                        &__div.segundo__subtitulo {grid-area: segundo__subtitulo;
+                        grid-area: segundo__subtitulo;
+                        margin-bottom: -7px;
+                        margin-top: 470px;
+                        margin-right: -313px;}
+        
+                        &__div.segundo__texto {grid-area: segundo__texto;
+                        grid-area: segundo__texto;
+                        margin-left: 176px;
+                        margin-right: -455px;
+                        display: inline-block;
+                        width: 800px;}
+  
+                        &__div.segundo__img {grid-area: segundo__img;
+                        grid-area: segundo__img;
+                        height: 603px;
+                        display: flex;
+                        margin-left: 12px;
+                        height: 671px;}
+  
+  
+                        &__footer.pie{grid-area:pie;
+                        grid-area: pie;
+                        background-color: black;
+                        padding: 11px;
+                        height: 277px;
+                        margin-left: -453px;
+                        margin-right: -634px;}
+   
+                        &__form.formulario{grid-area: formulario;
+                        margin-left: 20px;}
+          
+                        &__div.info{grid-area: info;
+                        text-align: right;
+                        color: white;
+                        height: -20px;
+                        font-size: x-large;
+                        margin-top: -233px;
+                        margin-right: 19px;}   
+  
+                        @keyframes animacion{
+                            0% {width:800px;}
+                            50%{width: 500px;}
+                        }
+                        
+                        &__animacion{
+                            width: 800px;
+                            animation-duration: 7s;
+                            animation-name: animacion;
+                            animation-iteration-count: infinite;    
+                            animation-timing-function: ease-in;}
+                    }
+  
+  

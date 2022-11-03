@@ -1,0 +1,21 @@
+.segundo{margin: 15px 7px 15px 15px;   
+
+        &__segundo__subtitulo{margin-right: 49px;
+                               text-align: right;
+                               color: blue;
+                               font-weight: 700;
+                               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                               padding: 20px;
+                               font-size: large;}
+
+        &__segundo__texto {margin-left: -20px;
+                             margin-top: -106px;
+                             text-align: left;
+                             font-weight: 700;
+                             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                             padding: 20px;}
+
+        &__segundo__img{width: 550px;
+                        height: 694px;
+                        display: flex;}
+                }
