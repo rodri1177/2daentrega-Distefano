@@ -2,13 +2,13 @@
 
 @media only screen and (min-width:769px) and (max-width:1025px){
 
-    &__#grilla4{
+    #grilla4{
     display: grid;
     justify-content: center;
     grid-template-columns:1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "header" "quinta" "footer";}
-
+    grid-template-areas: "header" "cuarta" "footer";}
+  
     &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         width: 100%;
         padding-right: var(--bs-gutter-x,.75rem);
@@ -16,17 +16,67 @@
         margin-right: 1px;
         margin-left: -132px;}
     
-    &__headt{grid-area: headt;
-        margin-left: 59px;}
-
-    &__links{grid-area: links;
-        margin-right: 1226px;}
-
-    &__pie__trabajos{grid-area: pie__trabajos;
-        background-color: black;
-        padding: 20px;
-        height: 360px;
-        margin-left: -20px;
-        margin-right: -20px;} 
-        
-}
+        &__headt{grid-area: headt;
+        margin-left: -4px;
+      margin-right: -1205px;}
+  
+      &__links{grid-area: links;
+        margin-right: 9px;}
+    
+        &__cuarta__t1 {
+          width: 500px;
+          height: 1101px;
+          display: flex;}
+          &__cuarta__video {
+            display: flex;
+            justify-content: right;
+            height: -90px;
+            margin-right: -1128px;
+            margin-top: -303px;}
+            &__cuarta__unavida {
+              padding: 10px;
+              text-align: left;
+              color: blue;
+              font-weight: 700;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: large;}
+              &__cuarta__texto {
+                width: 1500px;
+                font-size: xx-large;}
+                &__cuarta__video {
+                  display: flex;
+                  justify-content: right;
+                  height: -90px;
+                  margin-right: -1128px;
+                  margin-top: -400px;}
+                  &__columna__cen {
+                    height: 500px;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: -505px;
+                    margin-right: -1167px;}
+                    &__columna__izq {
+                      margin-top: 74px;
+                     margin-left: 23px;}
+                     &__columna__der {
+                      height: 500px;
+                      display: flex;
+                      margin-left: 1767px;
+                      margin-top: -500px;}
+                      &__subtitulos__izq__tit {
+                        margin-bottom: 17px;}
+                        &__subtitulos__cen__tit{
+                            margin-left: 787px;
+                            width: 620px;}
+                            &__subtitulos__der__tit{
+                            margin-left: 1568px;
+                            width: 500px;}                  
+        &__pie__trabajos {
+          grid-area: pie__trabajos;
+          background-color: black;
+          padding: 20px;
+          height: 360px;
+          margin-right: 68px;
+          margin-right: -1202px;}
+  }
+  

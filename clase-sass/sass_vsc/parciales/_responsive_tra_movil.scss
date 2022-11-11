@@ -1,33 +1,85 @@
 /*estilo movil - - - - trabajos*/
 
 @media only screen and (max-width: 320px){
-  
-    &__#grilla4{
-        display: grid;
-        justify-content: center;
-        grid-template-columns:1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "header" "quinta" "footer";}
+
+        #grilla4{
+          display: grid;
+          justify-content: center;
+          grid-template-columns:1fr;
+          grid-template-rows: 1fr;
+          grid-template-areas: "header" "cuarta" "footer";}
+          
+          &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+                  width: 100%;
+                  padding-right: var(--bs-gutter-x,.75rem);
+                  padding-left: var(--bs-gutter-x,.75rem);
+                  margin-right: 1px;
+                  margin-left: -75px;}
         
-        &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-                width: 100%;
-                padding-right: var(--bs-gutter-x,.75rem);
-                padding-left: var(--bs-gutter-x,.75rem);
-                margin-right: 1px;
-                margin-left: -75px;}
+                  &__headt{width: 1272px;
+                    margin-right: -1286px;}
+              
+                    &__links{grid-area: links;
+                    margin-right: 1226px;}
+              
+                    &__cuarta__t1 {
+                      width: 500px;
+                      height: 629px;
+                      display: flex;}
+                      &__cuarta__video {
+                          display: flex;
+                          justify-content: right;
+                          height: -90px;
+                          margin-right: -611px;
+                          margin-top: 19px;
+                          height: 231px;
+                          width: 903px;}
+                          &__cuarta__unavida {
+                          padding: 10px;
+                          text-align: left;
+                          color: blue;
+                          font-weight: 700;
+                          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                          font-size: xx-large;}
+                          &__cuarta__texto {
+                            width: 1239px;
+                            font-size: xx-large;}
+                            &__columna__cen {
+                                height: 500px;
+                                display: flex;
+                                justify-content: center;
+                                margin-top: -505px;
+                                margin-right: -957px;}
+                                &__columna__izq {
+                                  margin-top: 109px;
+                                 margin-left: 23px;}
+                                 &__columna__der {
+                                  height: 500px;
+                                  display: flex;
+                                  margin-left: 837px;
+                                  margin-top: -500px;}
+                                  &__subtitulos__izq__tit {
+                                    margin-bottom: 29px;}
+                                    &__subtitulos__cen__tit{
+                                        margin-left: 333px;
+                                        width: 620px;
+                                        margin-bottom: 26px;
+                                        margin-top: -62px;}
+                                        &__subtitulos__der__tit{
+                                        margin-top: -54px;
+                                        margin-left: 619px;
+                                        width: 500px;}
+                        
+                &__pie__trabajos{grid-area: pie__trabajos;
+                    background-color: black;
+                    padding: 20px;
+                    height: 360px;
+                    margin-left: -20px;
+                    margin-right: -957px;} 
+                    &__formulario{margin-left: 271px;}
+                    &__formt{margin-left: -570px;
+                      display: inline-grid;}
+                
+                &__infot{margin-right: 13px;}
+                }
         
-        &__headt{grid-area: headt;
-                margin-left: 353px;}
-    
-        &__links{grid-area: links;
-                margin-right: 1295px;
-                margin-top: -8px;}
-  
-            &__pie__trabajos{grid-area: pie__trabajos;
-                background-color: black;
-                padding: 20px;
-                height: 364px;
-                margin-left: 315px;
-                margin-right: 59px;}     
-    }
-    

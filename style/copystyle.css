@@ -1,3 +1,1594 @@
+/*index*/
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: aqua;
+  font-size: x-large;
+  margin-left: 2px;
+  color: blue;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  padding: 10px;
+}
+
+.titulo{
+  display: flex;
+  margin-left: 1rem;
+  height: 50px;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover{
+  color: white;
+}
+
+.principal {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      white-space: break-spaces;
+      margin: 20px 20px 20px 20px;
+}
+
+.principal__slogan{
+      color: blue;
+      margin: 20px;
+      text-align: initial;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      align-items: center;
+      font-size: large;
+  }
+
+.principal__texto{
+  display: inline-table;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+.segundo{
+  margin: 15px 7px 15px 15px;   
+}
+
+.segundo__subtitulo{margin-top: -54px;
+      margin-bottom: 54px;
+      margin-right: 100px;
+      text-align: right;
+      color: blue;
+      font-weight: 700;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      font-size: large;
+}
+
+.segundo__texto {
+      margin-left: -20px;
+      margin-top: -106px;
+      text-align: left;
+      font-weight: 700;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+}
+
+.segundo__img{  
+      width: 550px;
+      height: 694px;
+      display: flex;
+}
+
+.pie {
+  background-color: black;
+  padding: 20px;
+  height: 242px;
+}
+
+.formulario{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: table-caption;
+  color:white;
+  background-color: black;
+}
+
+a{    
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.info{ 
+      text-align: right;
+      color: white;
+      height: -20px;
+      margin-top: -207px;    
+}
+
+
+
+/*clases*/
+
+.segunda{    
+  padding: 12px 5px 20px 8px;
+}   
+
+.segunda__columna__izq{
+height: 400px;
+display: flex;
+margin-left: -12px;}    
+
+.segunda__columna__cen1{   
+  height: 335px;
+  width: 83px;
+  margin-left: 478px;
+  display: flex;
+  justify-content: center;
+  margin-top: -367px;
+}
+
+.segunda__columna__cen2{   
+  height: 336px;
+  width: 821px;
+  margin-left: 466px;
+  display: flex;
+  justify-content: center;
+  margin-top: -336px;
+}
+
+.segunda__columna__der{
+  display: flex;
+  height: 300px;
+  margin-left: 1009px;
+  width: 300px;
+  margin-top: -317px;
+  margin-top: 20-900px;
+  margin-top: -900;    
+}
+
+.segunda__centro{            
+      margin-top: 40px;
+}
+
+.segunda__centro__subt{
+color: blue;
+font-weight: 700;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: large;
+text-align: center;
+height: 40px;
+}
+
+.segunda__centro__img{
+  display: flex;
+  height: 348px;
+  margin-left: 399px;
+  margin-bottom: 2px;
+}
+
+.segunda__centro__txtizq{
+  font-weight: 700;
+  display: flex;
+  justify-content: start;
+  margin-left: 80px;
+  margin-top: -300px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.segunda__centro__txtizq2{
+  font-weight: 700;
+  display: flex;
+  justify-content: left;
+  margin-left: 89px;    
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.segunda__centro__txtizq3{
+  font-weight: 700;
+  display: flex;
+  justify-content: left;
+  margin-left: 93px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.segunda__centro__txtder{
+  font-weight: 700;
+  display: flex;
+  margin-top: -107px;
+  justify-content: right;
+  margin-right: 103px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pie__clases{
+background-color: black;
+padding: 20px;
+height: 338px;
+margin-top: 272px;
+}
+
+.formulario__c{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: table-caption;
+      color:white;
+      background-color: black;
+  }
+  
+
+/*estudio*/
+
+.tercera{
+  padding: 20px;
+      }
+
+.tercera__img{
+      display: flex;
+      justify-content: right;
+      height: 700px;
+      margin-right: 70px;
+           }
+
+.tercera__img2{
+      display: flex;
+      margin-top: -379px;
+      margin-left: 55px;
+            }
+
+.tercera__img3{
+      display: flex;
+      height: 300px;
+      margin-left: 110px;
+      margin-top: -679px;
+            }
+
+.tercera__logo{
+      text-align: 20px;
+      margin-left: 47px;
+      margin-top: 379px;
+            }
+
+.tercera__txt{ 
+      font-weight: 500;
+      display: flex;
+      margin-top: -131px;
+      text-align: justify;
+      margin-bottom: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-left: 375px;
+           }
+
+.pie__estudio {
+  background-color: black;
+  padding: 20px;
+  height: 327px;
+            }
+
+
+
+/*trabajos*/
+
+.cuarta{    
+  padding: 20px 20px 20px 20px;
+     }
+
+.cuarta__t1{
+      width: 500px;
+      height: 618px;
+      display: flex;
+         }
+
+.cuarta__unavida{margin-top: 20px;
+      padding: 10px;
+      text-align: left;
+      color: blue;
+      font-weight: 700;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: large;
+              }
+
+.cuarta__texto{
+  width: 600px;
+            }
+
+.cuarta__video{
+      display: flex;
+      justify-content: right;
+      height: -90px;
+      margin-right: 38px;
+      margin-top: -303px;
+            }
+
+.columna{
+      margin: 20px 20px 20px 20px;       
+      }
+
+.columna__izq{
+  height: 500px;
+  display: flex;
+           }
+
+.subtitulos__izq__tit{margin-bottom: 24px;
+  margin-top: 10px;
+      color: blue;  
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-left: 63px;
+                   }
+
+.columna__cen{   
+      height: 500px;
+      display: flex;        
+      justify-content: center;    
+      margin-top: -500px;
+           }
+
+.subtitulos__cen__tit{margin-bottom: 84px;
+  margin-top: -63px;
+      margin-top: -52px;
+      text-align: center;
+      color: blue;
+      font-weight: 700;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: medium;
+                   }
+
+.columna__der{
+      height: 500px;
+      display: flex;
+      margin-left: 850px;
+      margin-top: -500px;
+           }
+
+.subtitulos__der__tit{margin-bottom: 21px;
+      text-align: right;
+      color: blue;
+      font-weight: 700;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: medium;
+      margin-right: 98px;
+      margin-top: -120px;
+                   }
+
+.pie__trabajos {
+  background-color: black;
+  padding: 20px;
+  height: 324px;
+             }
+
+
+
+/*Nosotros*/
+
+.quinta{
+  padding: 15px;
+     }
+
+.quinta__img{
+      width: 200px;
+      height: 509px;
+      display: flex;
+      margin-left: 343px;
+          }
+
+.quinta__txt{
+      font-weight: 700;
+      display: flex;
+      margin-top: -5px;
+      text-align: justify;
+      margin-bottom: -20px;
+      width: 864px;
+      margin-left: 365px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+
+.pie__nosotros {
+  background-color: black;
+  padding: 20px;
+  height: 324px;
+             }
+
+
+/*grilla*/
+
+#grilla{display: grid;}
+
+ .header{display: grid;}
+
+
+/*estilo movil - - - - index*/
+
+@media only screen and (max-width: 320px){
+  
+  #grilla{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header" "principal" "segundo" "footer";}
+
+
+         header{grid-area: header; 
+                     margin-right: -1225px;}    
+
+         .header{grid-area: header; 
+                     margin-left: 142px; 
+                     margin-right:-223px;}
+
+         nav.links{grid-area: links; 
+                      margin-right: 7px;}
+        
+         .cafe{grid-area: cafe;
+                      display: flex;
+                      margin-left: 447px;
+                      height: 433px;
+                      margin-bottom: -329px;}
+        
+         .principal__slogan {grid-area: principal__slogan;
+                      margin-left: -852px;
+                      font-size: x-large;
+                      width: 192px;}
+
+         .principal__texto {grid-area: principal__texto;
+                      grid-area: principal__texto;
+                      margin-bottom: -1078px;
+                      margin-left: -343px;
+                      margin-right: -531px;
+                      width: 879px;}
+        
+         .segundo__subtitulo {grid-area: segundo__subtitulo;
+                      grid-area: segundo__subtitulo;
+                      margin-bottom: -7px;
+                      margin-top: 470px;
+                      margin-right: -313px;}
+      
+         .segundo__texto {grid-area: segundo__texto;
+                      grid-area: segundo__texto;
+                      margin-left: 176px;
+                      margin-right: -455px;
+                      display: inline-block;
+                      width: 800px;}
+
+         .segundo__img {grid-area: segundo__img;
+                      grid-area: segundo__img;
+                      height: 603px;
+                      display: flex;
+                      margin-left: 12px;
+                      height: 671px;}
+
+
+         .pie{grid-area:pie;
+                      grid-area: pie;
+                      background-color: black;
+                      padding: 11px;
+                      height: 277px;
+                      margin-left: -453px;
+                      margin-right: -634px;}
+ 
+        .formulario{grid-area: formulario;
+                      margin-left: 20px;}
+        
+         .info{grid-area: info;
+                      text-align: right;
+                      color: white;
+                      height: -20px;
+                      font-size: x-large;
+                      margin-top: -233px;
+                      margin-right: 19px;}   
+
+                      @keyframes animacion{
+                          0% {width:800px;}
+                          50%{width: 500px;}
+                      }
+                      
+                      .animacion{
+                          width: 800px;
+                          animation-duration: 7s;
+                          animation-name: animacion;
+                          animation-iteration-count: infinite;    
+                          animation-timing-function: ease-in;}
+                  }
+
+
+
+/*estilo tablet  - - - - index*/
+
+@media only screen and (min-width: 321px) and (max-width: 769px){
+  
+  #grilla{
+        display: grid;
+      justify-content: center;
+      grid-template-columns:1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "header" "principal" "segundo" "footer";}
+
+      header{grid-area: header; 
+                  margin-right: -1030px;}    
+
+      .header{grid-area: header; 
+                  margin-left: 20px; 
+                  margin-right:-223px;}
+
+      .links{grid-area: links; 
+                  margin-right: 8px;}
+    
+      .cafe {grid-area: cafe;
+                  display: flex;
+                  margin-left: 319px;
+                  height: 256px;
+                  margin-bottom: -133px;}
+    
+      .principal__slogan {grid-area: principal__slogan;
+                  margin-left: -700px;
+                  font-size: x-large;
+                  width: 192px;}
+
+      .principal__texto {grid-area: principal__texto;
+                  margin-bottom: -705px;
+                  margin-left: -422px;
+                  margin-right: -243px;
+                  text-align: justify;
+                  width: 619px;}
+    
+      .segundo__subtitulo{grid-area: segundo__subtitulo;
+                  grid-area: segundo__subtitulo;
+                  margin-bottom: -7px;
+                  margin-top: 333px;
+                  margin-right: -246px;}
+  
+      .segundo__texto{grid-area: segundo__texto;
+                  margin-left: 47px;
+                  margin-left: -59px;
+                  margin-right: -479px;
+                  margin-right: -529px;
+                  display: inline-block;
+                  width: 854px;}
+
+      .segundo__img{grid-area: segundo__img;
+                  grid-area: segundo__img;
+                  display: flex;
+                  margin-left: 12px;
+                  margin-right: -33px;
+                  height: 420px;}
+
+      .pie{grid-area:pie;
+                  background-color: black;
+                  padding: 11px;
+                  height: 277px;
+                  margin-left: -769px;
+                  margin-right: -478px;}
+
+      .formulario{grid-area: formulario;
+                  margin-left: 20px;}
+    
+      .info{grid-area: info;
+                  text-align: right;
+                  color: white;
+                  height: -20px;
+                  font-size: x-large;
+                  margin-top: -233px;
+                  margin-right: 15px;}   
+
+                  @keyframes animacion{
+                      0% {width:600px;}
+                      50%{width: 300px;}
+                  }
+                  
+                  .animacion{
+                      width: 600px;
+                      animation-duration: 7s;
+                      animation-name: animacion;
+                      animation-iteration-count: infinite;    
+                      animation-timing-function: ease-in;}
+              }
+
+
+
+/*estilo desktop - - - - index*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+  #grilla{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "principal" "segundo" "footer";}
+
+              header{grid-area: header; 
+                    margin-right: -1190px;
+                    display: flex;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    background-color: aqua;
+                    font-size: x-large;
+                    margin-left: 2px;
+                    color: blue;
+                    justify-content: space-between;
+                    height: 70px;
+                    align-items: center;
+                    padding: 10px;}
+
+              .header{grid-area: header; 
+                  margin-left: 30px; 
+                  margin-right:-223px;}
+
+              .links{grid-area: links; 
+                  margin-right: 9px;}
+  
+              section.principal{grid-area: principal;
+                  margin-top: 139px;}
+
+              div.cafe{grid-area: cafe; 
+                 margin-left: 365px; 
+                 display: flex;}
+              
+              div.principal__slogan {grid-area: principal__slogan; 
+                 margin-left: -865px; 
+                 font-size: x-large;}
+  
+              div.principal__texto {grid-area: principal__texto; 
+                  margin-bottom: -767px; 
+                  margin-left: -268px;}
+
+              div.segundo__subtitulo{grid-area: segundo__subtitulo; 
+                  margin-right: -62px; 
+                  margin-top: 239px;}
+
+              .segundo__texto{grid-area: segundo__texto; 
+                  margin-left: 37px; 
+                  display: inline-block; 
+                  margin-top: -50px;}
+
+              .segundo__img{grid-area: segundo__img; 
+                  height: 654px; display: flex; 
+                  margin-left: -3px;}
+
+              .pie{grid-area:pie;
+                  background-color: black;
+                  padding: 11px;
+                  height: 277px;
+                  margin-right: -165px;
+                  margin-left: -1024px;}
+
+              .formulario{grid-area: formulario; 
+                  margin-left: 10px;}
+
+              .info{grid-area:info;
+                  text-align: right;
+                  color: white;
+                  height: -20px;
+                  font-size: x-large;
+                  margin-top: -233px;
+                  margin-right: 25px;}
+
+                  @keyframes animacion{
+                      0% {width:800px;}
+                      50%{width: 400px;}
+                  }
+                  
+                  .animacion{
+                      width: 800px;
+                      animation-duration: 7s;
+                      animation-name: animacion;
+                      animation-iteration-count: infinite;    
+                      animation-timing-function: ease-in;}
+}
+
+
+
+/*estilo desktop - - - - clases*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+      #grilla2{overflow: hidden;
+      display: grid;
+      justify-content: center;
+      grid-template-columns:1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "header" "segunda" "footer";}
+
+      .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+          width: 100%;
+          padding-right: var(--bs-gutter-x,.75rem);
+          padding-left: var(--bs-gutter-x,.75rem);
+          margin-right: 1px;
+          margin-left: -132px;}
+      
+      .clases{overflow: hidden;
+        margin-right: 83px;
+          margin-left: 249px;}
+      .header{margin-left: 34px;}
+      .links__c{margin-right: 185px;}
+      .segunda{margin-left: 169px;}
+      .segunda__centro{margin-left: 160px;}
+.segunda__columna__izq{margin-left: 261px;
+  height: 353px;}
+  .segunda__columna__cen1 {
+    height: 288px;
+    width: 70px;
+    margin-left: 702px;
+    display: flex;
+    justify-content: center;
+    margin-top: -337px;
+    margin-bottom: -38px;}
+    .segunda__columna__cen2 {
+      height: 307px;
+      width: 821px;
+      margin-left: 655px;
+      display: flex;
+      justify-content: center;
+      margin-top: -301px;}
+      .segunda__columna__der {margin-bottom: 19px;
+        display: flex;
+        height: 261px;
+        margin-left: 376px;
+        width: 300px;
+        margin-top: 106px;}
+        .segunda__centro__subt{margin-left: 112px;
+        margin-top: 80px;
+        margin-bottom: 43px;}
+        .segunda__centro__img {margin-top: -505px;
+          display: flex;
+          height: 348px;
+          margin-left: 610px;
+          margin-bottom: 313px;}
+          .segunda__centro__txtizq {font-size: x-large;
+            font-weight: 700;
+            display: flex;
+            margin-left: 572px;
+            margin-top: -182px;}
+            .segunda__centro__txtizq2 {font-size: x-large;
+              font-weight: 700;
+              display: flex;
+              justify-content: left;
+              margin-left: 594px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+              .segunda__centro__txtizq3 {font-size: x-large;
+                font-weight: 700;
+                display: flex;
+                justify-content: left;
+                margin-top: -1px;
+                margin-left: 601px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                .segunda__centro__txtder {font-size: x-large;
+                  font-weight: 700;
+                  display: flex;
+                  margin-top: -3px;
+                  justify-content: right;
+                  margin-right: 466px;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                  
+                  .pie__clases {
+                    background-color: black;
+                    padding: 20px;
+                    height: 325px;
+                    margin-left: 50px;
+                    margin-top: 55px;}
+                    .formulario__c {
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                      display: table-caption;
+                      color: white;
+                      background-color: black;
+                      margin-left: 345px;}
+                      .infoc {
+                        grid-area: info;
+                        text-align: right;
+                        color: white;
+                        height: -20px;
+                        font-size: x-large;
+                        margin-top: -233px;
+                        margin-right: 179px;}
+}
+
+
+
+/*estilo tablet - - - - clases*/
+
+@media only screen and (min-width: 321px) and (max-width: 769px){
+
+#grilla2{overflow: hidden;
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "segunda" "footer";}
+  
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      width: 100%;
+      padding-right: var(--bs-gutter-x,.75rem);
+      padding-left: var(--bs-gutter-x,.75rem);
+      margin-right: 1px;
+      margin-left: -75px;}
+  
+      .clases{margin-right: 64px;
+        margin-left: -144px;}
+      .header{margin-left: 170px;}
+      .links__c{margin-right: -9px;}
+    
+      .segunda{margin-left: 169px;
+        overflow: hidden;}
+      .segunda__centro{margin-left: 160px;}
+.segunda__columna__izq{margin-left: -15px;
+  height: 353px;}
+  .segunda__columna__cen1 {
+    height: 288px;
+    width: 70px;
+    margin-left: 409px;
+    display: flex;
+    justify-content: center;
+    margin-top: -337px;
+    margin-bottom: -38px;}
+    .segunda__columna__cen2 {
+      height: 307px;
+    width: 500px;
+    margin-left: 196px;
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;}
+      .segunda__columna__der {margin-bottom: 385px;
+        display: flex;
+        height: 307px;
+        margin-left: 85px;
+        margin-top: -306px;}
+        .segunda__centro__subt{margin-left: 1px;
+        margin-top: 80px;
+        margin-bottom: 43px;}
+        .segunda__centro__img {margin-top: -505px;
+          display: flex;
+          height: 348px;
+          margin-left: 106px;
+          margin-bottom: 313px;}
+          .segunda__centro__txtizq {font-size: x-large;
+            font-weight: 700;
+            display: flex;
+            margin-left: 171px;
+            margin-top: -182px;}
+            .segunda__centro__txtizq2 {font-size: x-large;
+              font-weight: 700;
+              display: flex;
+              justify-content: left;
+              margin-left: 192px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+              .segunda__centro__txtizq3 {font-size: x-large;
+                font-weight: 700;
+                display: flex;
+                justify-content: left;
+                margin-top: -1px;
+                margin-left: 196px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                .segunda__centro__txtder {font-size: x-large;
+                  font-weight: 700;
+                  display: flex;
+                  margin-top: -3px;
+                  justify-content: right;
+                  margin-right: 150px;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                  
+                  .pie__clases {
+                    background-color: black;
+                    padding: 20px;
+                    height: 325px;
+                    margin-left: 25px;
+                    margin-top: 55px;}
+                    .formulario__c {
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                      display: table-caption;
+                      color: white;
+                      background-color: black;
+                      margin-left: 71px;}
+                      .infoc {
+                        grid-area: info;
+                        text-align: right;
+                        color: white;
+                        height: -20px;
+                        font-size: x-large;
+                        margin-top: -233px;
+                        margin-right: 6px;}
+}
+
+
+
+/*estilo movil - - - - clases*/
+
+@media screen and (max-width: 320px){
+  
+  #grilla2{
+    overflow: hidden;
+      display: grid;
+      justify-content: center;
+      grid-template-columns:1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "header" "segunda" "footer";}
+      
+      .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+              width: 100%;
+              padding-right: var(--bs-gutter-x,.75rem);
+              padding-left: var(--bs-gutter-x,.75rem);
+              margin-right: 1px;
+              margin-left: -75px;}
+              .clases{margin-left: 839px;
+              }
+              .header{grid-area: header;
+                margin-left: 121px;
+                margin-right: -315px;}
+              .clase1{width: 260px;
+                margin-left: 517px;}
+              .links__c{display: flex;
+                margin-bottom: -44px;
+                margin-right: 2653px;
+                font-size: medium;}
+              .segunda{margin-left: 968px;}
+              .segunda__centro{margin-top: 42px;
+                margin-left: 866px;}
+              .colcen{margin-top: 406px;
+                margin-left: -777px;}
+        .segunda__columna__izq{margin-left: 563px;
+                               height: 294px;
+                               margin-top: -1px;}
+        .segunda__columna__cen1 {
+          height: 159px;
+          width: 41px;
+          margin-left: 652px;
+          display: flex;
+          justify-content: center;
+          margin-top: 7px;
+          margin-bottom: -38px;}
+          .segunda__columna__cen2 {overflow: hidden;
+            height: 267px;
+            
+            margin-left: 1038px;
+            display: flex;
+            justify-content: center;
+            margin-top: -398px;}
+            .segunda__columna__der {
+              display: flex;
+              height: 258px;
+              margin-left: 1352px;
+              width: 300px;
+              margin-top: 11px;}
+              .segunda__centro__subt{margin-bottom: 74px;
+                margin-top: 149px;
+                margin-left: -734px;}
+              .segunda__centro__img {
+                display: flex;
+                height: 152px;
+                margin-left: 680px;
+                margin-right: 940px;
+                margin-bottom: 84px;
+                margin-top: -275px;}
+                .segunda__centro__txtizq {font-size: medium;
+                  font-weight: 700;
+                  display: flex;
+                  justify-content: start;
+                  margin-left: 671px;
+                  margin-top: -33px;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                  .segunda__centro__txtizq2 {font-size: medium;
+                    font-weight: 700;
+                    display: flex;
+                    justify-content: left;
+                    margin-left: 685px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                    .segunda__centro__txtizq3 {font-size: medium;
+                      font-weight: 700;
+                      display: flex;
+                      justify-content: left;
+                      margin-left: 692px;
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                      .segunda__centro__txtder {font-size: medium;
+                        font-weight: 700;
+                        display: flex;
+                        margin-top: 3px;
+                        justify-content: right;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        margin-right: 1406px;
+                      overflow: hidden;}
+                        
+                        .pie__clases {margin-left: 368px;
+                          background-color: black;
+                          padding: 20px;
+                          height: 587px;
+                          margin-top: 10px;
+                          overflow: hidden;}
+                          .formulario__c {overflow: hidden;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            display: table-caption;
+                            color: white;
+                            background-color: black;
+                            margin-left: 1177px;}
+                            .infoc {overflow: hidden;
+                              grid-area: infoc;
+                              text-align: right;
+                              color: white;
+                              height: -20px;
+                              font-size: x-large;
+                              margin-top: 269px;
+                              margin-right: 1721px;}            
+     }
+
+  
+
+
+/*estilo desktop - - - - estudio*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+  #grilla3{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "tercera" "footer";}
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      width: 100%;
+      padding-right: var(--bs-gutter-x,.75rem);
+      padding-left: var(--bs-gutter-x,.75rem);
+      margin-right: 1px;
+      margin-left: -132px;}
+  
+      .headest1{overflow: hidden;
+        margin-left: -5px;
+      margin-right: 25px;}
+      .headest{margin-left: 1094px;}
+
+  .linkse{grid-area: linkse;
+      margin-right: -24px;}
+      .tercera__img {
+        display: flex;
+        justify-content: right;
+        height: 977px;
+        margin-right: 350px;}
+        .tercera__img2 {
+          display: flex;
+          margin-top: -527px;
+          margin-left: 1486px;}
+          .tercera__img3 {
+            display: flex;
+            height: 300px;
+            margin-left: 1540px;
+            margin-top: -710px;}
+            .tercera__txt {
+              font-weight: 500;
+              display: flex;
+              margin-top: -159px;
+              text-align: justify;
+              margin-bottom: 0px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              margin-left: 1591px;
+              width: 1591px;}
+              .tercera__logo{margin-top: 600px;
+                margin-bottom: 30px;
+              margin-left: 1310px;}
+  .pie__estudio{grid-area: pie__estudio;
+      background-color: black;
+      padding: 20px;
+      height: 360px;
+      margin-left: 108px;
+      margin-right: -20px;}
+      .formf{margin-left: 1055px;}       
+}
+
+
+
+/*estilo tablet - - - - estudio*/
+
+@media only screen and (min-width: 321px) and (max-width: 769px){
+
+#grilla3{
+display: grid;
+justify-content: center;
+grid-template-columns:1fr;
+grid-template-rows: 1fr;
+grid-template-areas: "header" "tercera" "footer";}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: 1px;
+  margin-left: -75px;}
+  .headest1{overflow: hidden;
+    margin-left: -5px;
+    margin-right: -178px;}
+    .headest{margin-left: 650px;}
+
+.links{margin-left: 188px;
+  display: contents;}
+    .tercera__img {
+      display: flex;
+      justify-content: right;
+      height: 977px;
+      margin-right: -49px;}
+      .tercera__img2 {
+        display: flex;
+        margin-top: -527px;
+        margin-left: 721px;}
+        .tercera__img3 {
+          display: flex;
+          height: 300px;
+          margin-left: 770px;
+          margin-top: -679px;}
+          .tercera__txt {
+            font-weight: 500;
+            display: flex;
+            margin-top: -159px;
+            text-align: justify;
+            margin-bottom: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 785px;
+            width: 1191px;}
+            .tercera__logo{margin-top: 574px;
+              margin-bottom: 130px;
+            margin-left: 1286px;}
+.pie__estudio{overflow: hidden;
+  margin-left: 252px;}
+    .formf{margin-left: 407px;} 
+    .infoe {margin-right: -2px;}
+  }
+
+
+
+/*estilo movil - - - - estudio*/
+
+@media only screen and (max-width: 320px){
+
+#grilla3{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "tercera" "footer";}
+  
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+          width: 100%;
+          padding-right: var(--bs-gutter-x,.75rem);
+          padding-left: var(--bs-gutter-x,.75rem);
+          margin-right: 1px;
+          margin-left: -75px;}
+          .headest1{margin-left: 95px;
+            margin-right: -102px;}
+            .headest{margin-left: 650px;}
+        
+        .links{grid-area: links;
+            margin-right: 1084px;}
+            .tercera__img {
+              display: flex;
+              justify-content: right;
+              height: 977px;
+              margin-right: 9px;}
+              .tercera__img2 {
+                display: flex;
+                margin-top: 486px;
+                margin-left: 1043px;
+                height: 436px;}
+                .tercera__img3 {height: 434px;
+                  display: flex;
+                  margin-left: 1042px;
+                  margin-top: -900px;}
+                  .tercera__txt {
+                    font-weight: 500;
+                    display: flex;
+                    margin-top: -159px;
+                    text-align: justify;
+                    margin-bottom: 0px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin-left: 918px;
+                    width: 853px;
+                  font-size: xxx-large;}
+                    .tercera__logo{margin-top: 500px;
+                      margin-bottom: 130px;
+                    margin-left: 1202px;}
+        .pie__estudio{overflow: hidden;
+          margin-left: 169px;}
+            .formf{margin-left: 83px;} 
+            .infoe {margin-right: -12px;}
+}
+
+
+
+/*estilo desktop - - - - trabajos*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+  #grilla4{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "cuarta" "footer";}
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      width: 100%;
+      padding-right: var(--bs-gutter-x,.75rem);
+      padding-left: var(--bs-gutter-x,.75rem);
+      margin-right: 1px;
+      margin-left: -132px;}
+  
+  .headt{grid-area: headt;
+      margin-left: -4px;
+    margin-right: -1205px;}
+
+  .links{grid-area: links;
+      margin-right: 9px;}
+  
+      .cuarta__t1 {
+        width: 500px;
+        height: 1101px;
+        display: flex;}
+        .cuarta__video {
+          display: flex;
+          justify-content: right;
+          height: -90px;
+          margin-right: -1128px;
+          margin-top: -303px;}
+          .cuarta__unavida {
+            padding: 10px;
+            text-align: left;
+            color: blue;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;}
+            .cuarta__texto {
+              width: 1500px;
+              font-size: xx-large;}
+              .cuarta__video {
+                display: flex;
+                justify-content: right;
+                height: -90px;
+                margin-right: -1128px;
+                margin-top: -400px;}
+                .columna__cen {
+                  height: 500px;
+                  display: flex;
+                  justify-content: center;
+                  margin-top: -505px;
+                  margin-right: -1167px;}
+                .columna__izq {
+                    margin-top: 74px;
+                   margin-left: 23px;}
+                   .columna__der {
+                    height: 500px;
+                    display: flex;
+                    margin-left: 1767px;
+                    margin-top: -500px;}
+                    .subtitulos__izq__tit {
+                      margin-bottom: 17px;}
+                      .subtitulos__cen__tit{
+                          margin-left: 787px;
+                          width: 620px;}
+                        .subtitulos__der__tit{
+                          margin-left: 1568px;
+                          width: 500px;}                  
+      .pie__trabajos {
+        grid-area: pie__trabajos;
+        background-color: black;
+        padding: 20px;
+        height: 360px;
+        margin-right: 68px;
+        margin-right: -1202px;}
+}
+
+
+
+/*estilo tablet - - - - trabajos*/
+
+@media only screen and (min-width: 321px) and (max-width: 769px){
+
+#grilla4{
+display: grid;
+justify-content: center;
+grid-template-columns:1fr;
+grid-template-rows: 1fr;
+grid-template-areas: "header" "cuarta" "footer";}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: 1px;
+  margin-left: -75px;}
+  .headt{grid-area: headt;
+        margin-right: -1285px;}
+
+  .links{display: flex;
+    grid-area: links;}
+
+      .cuarta__t1 {
+        width: 500px;
+        height: 1022px;
+        display: flex;}
+        .cuarta__video {
+          display: flex;
+          justify-content: right;
+          height: -90px;
+          margin-right: -1293px;
+          margin-top: -430px;}
+          .cuarta__unavida {
+            padding: 10px;
+            text-align: left;
+            color: blue;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: xx-large;}
+            .cuarta__texto {
+              width: 1432px;
+              font-size: xx-large;}
+                .columna__cen {
+                  height: 500px;
+                  display: flex;
+                  justify-content: center;
+                  margin-top: -505px;
+                  margin-right: -1167px;}
+                .columna__izq {
+                    margin-top: 109px;
+                   margin-left: 23px;}
+                   .columna__der {
+                    height: 500px;
+                    display: flex;
+                    margin-left: 1616px;
+                    margin-top: -500px;}
+                    .subtitulos__izq__tit {
+                      margin-bottom: 15px;}
+                      .subtitulos__cen__tit{
+                          margin-left: 658px;
+                          width: 620px;
+                        margin-bottom: 17px;}
+                        .subtitulos__der__tit{
+                          margin-left: 1431px;
+                          width: 500px;}
+      
+  .pie__trabajos{grid-area: pie__trabajos;
+      background-color: black;
+      padding: 20px;
+      height: 360px;
+      margin-left: -20px;
+      margin-right: -1287px;} 
+  
+}
+
+
+
+/*estilo movil - - - - trabajos*/
+
+@media only screen and (max-width: 320px){
+
+#grilla4{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "cuarta" "footer";}
+  
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+          width: 100%;
+          padding-right: var(--bs-gutter-x,.75rem);
+          padding-left: var(--bs-gutter-x,.75rem);
+          margin-right: 1px;
+          margin-left: -75px;}
+
+          .headt{width: 1272px;
+            margin-right: -1286px;}
+      
+        .links{grid-area: links;
+            margin-right: 1226px;}
+      
+            .cuarta__t1 {
+              width: 500px;
+              height: 629px;
+              display: flex;}
+              .cuarta__video {
+                  display: flex;
+                  justify-content: right;
+                  height: -90px;
+                  margin-right: -611px;
+                  margin-top: 19px;
+                  height: 231px;
+                  width: 903px;}
+                .cuarta__unavida {
+                  padding: 10px;
+                  text-align: left;
+                  color: blue;
+                  font-weight: 700;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  font-size: xx-large;}
+                  .cuarta__texto {
+                    width: 1239px;
+                    font-size: xx-large;}
+                      .columna__cen {
+                        height: 500px;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: -505px;
+                        margin-right: -957px;}
+                      .columna__izq {
+                          margin-top: 109px;
+                         margin-left: 23px;}
+                         .columna__der {
+                          height: 500px;
+                          display: flex;
+                          margin-left: 837px;
+                          margin-top: -500px;}
+                          .subtitulos__izq__tit {
+                            margin-bottom: 29px;}
+                            .subtitulos__cen__tit{
+                                margin-left: 333px;
+                                width: 620px;
+                                margin-bottom: 26px;
+                                margin-top: -62px;}
+                              .subtitulos__der__tit{
+                                margin-top: -54px;
+                                margin-left: 619px;
+                                width: 500px;}
+                
+        .pie__trabajos{grid-area: pie__trabajos;
+            background-color: black;
+            padding: 20px;
+            height: 360px;
+            margin-left: -20px;
+            margin-right: -957px;} 
+            .formulario{margin-left: 271px;}
+            .formt{margin-left: -570px;
+              display: inline-grid;}
+        
+        .infot{margin-right: 13px;}
+        }
+
+
+
+/*estilo desktop - - - - nosotros*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+  #grilla5{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "quinta" "footer";}
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      width: 100%;
+      padding-right: var(--bs-gutter-x,.75rem);
+      padding-left: var(--bs-gutter-x,.75rem);
+      margin-right: 1px;
+      margin-left: -132px;}
+  
+      .tipnosotros{margin-left: 219px;}
+  .nosotros {overflow: hidden;
+    margin-left: -53px;
+    margin-right: -114px;}
+    .noslinks{margin-left: 692px;
+      display: flex;}
+    .quinta{margin-left: 20px;}
+    .quinta__img {width: 200px;
+      height: 558px;
+      display: flex;
+      margin-left: 462px;}
+      .quinta__txt{width: 930px;
+        margin-left: 496px;
+        margin-bottom: 2px;
+        margin-top: 23px;}
+    .pie__nosotros{margin-left: 245px;
+      height: 344px;} 
+      .formn{margin-left: 58px;}
+      .info {grid-area: info;
+        text-align: right;
+        color: white;
+        height: -20px;
+        font-size: x-large;
+        margin-top: -233px;
+        margin-right: 3px;}
+  
+}
+
+
+
+/*estilo tablet - - - - nosotros*/
+
+@media only screen and (min-width: 321px) and (max-width: 769px){
+
+#grilla5{
+display: grid;
+justify-content: center;
+grid-template-columns:1fr;
+grid-template-rows: 1fr;
+grid-template-areas: "header" "quinta" "footer";}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: 1px;
+  margin-left: -75px;}
+
+  .tipnosotros{margin-left: 219px;}
+  .nosotros {margin-left: 181px;
+    margin-right: -170px;}
+    .noslinks{margin-left: 741px;
+      display: flex;}
+    .quinta{margin-left: 20px;}
+    .quinta__img {width: 200px;
+      height: 558px;
+      display: flex;
+      margin-left: 610px;}
+      .quinta__txt{width: 930px;
+        margin-left: 639px;
+        margin-bottom: 2px;
+        margin-top: 23px;}
+    .pie__nosotros{margin-left: 245px;
+      height: 344px;} 
+      .formn{margin-left: 226px;}
+      .info {grid-area: info;
+        text-align: right;
+        color: white;
+        height: -20px;
+        font-size: x-large;
+        margin-top: -233px;
+        margin-right: 3px;}
+}
+
+
+
+/*estilo movil - - - - nosotros*/
+
+@media only screen and (max-width: 320px){
+
+#grilla5{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "quinta" "footer";}
+  
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+          width: 100%;
+          padding-right: var(--bs-gutter-x,.75rem);
+          padding-left: var(--bs-gutter-x,.75rem);
+          margin-right: 1px;
+          margin-left: -75px;}
+  
+          .nosotros {
+            margin-left: 663px;
+            margin-right: -90px;}
+            .quinta__img {
+              width: 200px;
+              height: 516px;
+              display: flex;
+              margin-left: 801px;}
+              .quinta__txt{width: 862px;
+              margin-left: 830px;}
+            .pie__nosotros{
+              margin-left: 166px;
+              height: 321px;} 
+             .formulario {
+                grid-area: formulario;
+                margin-left: 583px;}
+              .info {
+                grid-area: info;
+                text-align: right;
+                color: white;
+                height: -20px;
+                font-size: x-large;
+                margin-top: -233px;
+                margin-right: 14px;}              
+}
+
+
+
+/*
 .header {
   display: flex;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,6 +1660,7 @@
     display: flex; }
 
 /*estilo desktop - - - - index*/
+/*
 @media only screen and (min-width: 769px) and (max-width: 1025px) {
   __#grilla {
     display: grid;
@@ -156,6 +1748,7 @@
     animation-timing-function: ease-in; } }
 
 /*estilo tablet  - - - - index*/
+/*
 @media only screen and (min-width: 321px) and (max-width: 769px) {
   __#grilla {
     display: grid;
@@ -243,6 +1836,7 @@
     animation-timing-function: ease-in; } }
 
 /*estilo movil - - - - index*/
+/*
 @media only screen and (max-width: 320px) {
   __#grilla {
     display: grid;
@@ -436,7 +2030,7 @@
   margin-top: -50px; }
 
 /*estilo desktop - - - - clases*/
-@media only screen and (min-width: 769px) and (max-width: 1025px) {
+/*@media only screen and (min-width: 769px) and (max-width: 1025px) {
   __#grilla2 {
     display: grid;
     justify-content: center;
@@ -484,7 +2078,7 @@
     margin-right: -20px; } }
 
 /*estilo tablet - - - - clases*/
-@media only screen and (min-width: 321px) and (max-width: 769px) {
+/*@media only screen and (min-width: 321px) and (max-width: 769px) {
   __#grilla2 {
     display: grid;
     justify-content: center;
@@ -512,7 +2106,7 @@
     margin-right: -20px; } }
 
 /*estilo movil - - - - clases*/
-@media only screen and (max-width: 320px) {
+/*@media only screen and (max-width: 320px) {
   __#grilla2 {
     display: grid;
     justify-content: center;
@@ -569,14 +2163,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 375px; }
 
-/*estilo desktop - - - - estudio*/
+/*estilo desktop - - - - estudio*//*
 @media only screen and (min-width: 769px) and (max-width: 1025px) {
   __#grilla3 {
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "header" "quinta" "footer"; }
+    grid-template-areas: "header" "tercera" "footer"; }
   __container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     width: 100%;
     padding-right: var(--bs-gutter-x, 0.75rem);
@@ -597,7 +2191,7 @@
     margin-left: -20px;
     margin-right: -20px; } }
 
-/*estilo tablet - - - - estudio*/
+/*estilo tablet - - - - estudio*//*
 @media only screen and (min-width: 321px) and (max-width: 769px) {
   __#grilla3 {
     display: grid;
@@ -625,7 +2219,7 @@
     margin-left: 77px;
     margin-right: -20px; } }
 
-/*estilo movil - - - - estudio*/
+/*estilo movil - - - - estudio*//*
 @media only screen and (max-width: 320px) {
   __#grilla3 {
     display: grid;
@@ -676,7 +2270,7 @@
     margin-right: 38px;
     margin-top: -303px; }
 
-/*estilo desktop - - - - trabajos*/
+/*estilo desktop - - - - trabajos*//*
 @media only screen and (min-width: 769px) and (max-width: 1025px) {
   __#grilla4 {
     display: grid;
@@ -704,7 +2298,7 @@
     margin-left: -20px;
     margin-right: -20px; } }
 
-/*estilo tablet - - - - trabajos*/
+/*estilo tablet - - - - trabajos*//*
 @media only screen and (min-width: 321px) and (max-width: 769px) {
   __#grilla4 {
     display: grid;
@@ -732,7 +2326,7 @@
     margin-left: 77px;
     margin-right: -20px; } }
 
-/*estilo movil - - - - trabajos*/
+/*estilo movil - - - - trabajos*//*
 @media only screen and (max-width: 320px) {
   __#grilla4 {
     display: grid;
@@ -779,7 +2373,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 179px; }
 
-/*estilo desktop - - - - nosotros*/
+/*estilo desktop - - - - nosotros*//*
 @media only screen and (min-width: 769px) and (max-width: 1025px) {
   __#grilla5 {
     display: grid;
@@ -807,7 +2401,7 @@
     margin-left: -20px;
     margin-right: -20px; } }
 
-/*estilo tablet - - - - nosotros*/
+/*estilo tablet - - - - nosotros*//*
 @media only screen and (min-width: 321px) and (max-width: 769px) {
   __#grilla5 {
     display: grid;
@@ -841,7 +2435,7 @@
     margin-left: 77px;
     margin-right: -20px; } }
 
-/*estilo movil - - - - nosotros*/
+/*estilo movil - - - - nosotros*//*
 @media only screen and (max-width: 320px) {
   __#grilla5 {
     display: grid;

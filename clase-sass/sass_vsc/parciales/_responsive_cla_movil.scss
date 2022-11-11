@@ -1,33 +1,116 @@
 /*estilo movil - - - - clases*/
 
-@media only screen and (max-width: 320px){
+@media screen and (max-width: 320px){
   
-    &__#grilla2{
-        display: grid;
-        justify-content: center;
-        grid-template-columns:1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "header" "quinta" "footer";}
-        
-        &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-                width: 100%;
-                padding-right: var(--bs-gutter-x,.75rem);
-                padding-left: var(--bs-gutter-x,.75rem);
-                margin-right: 1px;
-                margin-left: -75px;}
-        
-        &__clases{grid-area: clases;
-                margin-left: 353px;}
-    
-        &__links__c{grid-area: links__c;
-                margin-right: 1295px;
-                margin-top: -8px;}
-  
-            &__pie__clases{grid-area: pie__clases;
-                background-color: black;
-                padding: 20px;
-                height: 364px;
-                margin-left: 315px;
-                margin-right: 59px;}     
-    }
-    
+        #grilla2{
+          overflow: hidden;
+            display: grid;
+            justify-content: center;
+            grid-template-columns:1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: "header" "segunda" "footer";}
+            
+            &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+                    width: 100%;
+                    padding-right: var(--bs-gutter-x,.75rem);
+                    padding-left: var(--bs-gutter-x,.75rem);
+                    margin-right: 1px;
+                    margin-left: -75px;}
+                    .clases{margin-left: 839px;}
+                    &__header{grid-area: header;
+                      margin-left: 121px;
+                      margin-right: -315px;}
+                      &__clase1{width: 260px;
+                      margin-left: 517px;}
+                      &__links__c{display: flex;
+                      margin-bottom: -44px;
+                      margin-right: 2653px;
+                      font-size: medium;}
+                      &__segunda{margin-left: 968px;}
+                      &__segunda__centro{margin-top: 42px;
+                      margin-left: 866px;}
+                      &__colcen{margin-top: 406px;
+                      margin-left: -777px;}
+                      &__segunda__columna__izq{margin-left: 563px;
+                                     height: 294px;
+                                     margin-top: -1px;}
+                      &__segunda__columna__cen1 {
+                        height: 159px;
+                        width: 41px;
+                        margin-left: 652px;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 7px;
+                        margin-bottom: -38px;}
+                        &__segunda__columna__cen2 {overflow: hidden;
+                                                   height: 267px;
+                                                margin-left: 1038px;
+                                                display: flex;
+                                                justify-content: center;
+                                                margin-top: -398px;}
+                &__segunda__columna__der {
+                    display: flex;
+                    height: 258px;
+                    margin-left: 1352px;
+                    width: 300px;
+                    margin-top: 11px;}
+                    &__segunda__centro__subt{margin-bottom: 74px;
+                      margin-top: 149px;
+                      margin-left: -734px;}
+                      &__segunda__centro__img {
+                      display: flex;
+                      height: 152px;
+                      margin-left: 680px;
+                      margin-right: 940px;
+                      margin-bottom: 84px;
+                      margin-top: -275px;}
+                      &__segunda__centro__txtizq {font-size: medium;
+                        font-weight: 700;
+                        display: flex;
+                        justify-content: start;
+                        margin-left: 671px;
+                        margin-top: -33px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                        &__segunda__centro__txtizq2 {font-size: medium;
+                          font-weight: 700;
+                          display: flex;
+                          justify-content: left;
+                          margin-left: 685px;
+                          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                          &__segunda__centro__txtizq3 {font-size: medium;
+                            font-weight: 700;
+                            display: flex;
+                            justify-content: left;
+                            margin-left: 692px;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+                            &__segunda__centro__txtder {font-size: medium;
+                              font-weight: 700;
+                              display: flex;
+                              margin-top: 3px;
+                              justify-content: right;
+                              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                              margin-right: 1406px;
+                            overflow: hidden;}
+                              
+                            &__pie__clases {margin-left: 368px;
+                                background-color: black;
+                                padding: 20px;
+                                height: 587px;
+                                margin-top: 10px;
+                                overflow: hidden;}
+                                &__formulario__c {overflow: hidden;
+                                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                  display: table-caption;
+                                  color: white;
+                                  background-color: black;
+                                  margin-left: 1177px;}
+                                  &__infoc {overflow: hidden;
+                                    grid-area: infoc;
+                                    text-align: right;
+                                    color: white;
+                                    height: -20px;
+                                    font-size: x-large;
+                                    margin-top: 269px;
+                                    margin-right: 1721px;}            
+           }
+      

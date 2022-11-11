@@ -2,14 +2,14 @@
 
 @media only screen and (min-width:769px) and (max-width:1025px){
 
-    &__#grilla{
+    #grilla{
     display: grid;
     justify-content: center;
     grid-template-columns:1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "header" "principal" "segundo" "footer";}
   
-    &__header{grid-area: header; 
+                header{grid-area: header; 
                       margin-right: -1190px;
                       display: flex;
                       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,52 +22,52 @@
                       align-items: center;
                       padding: 10px;}
   
-                      &__div.header{grid-area: header; 
+                    &__header{grid-area: header; 
                     margin-left: 30px; 
                     margin-right:-223px;}
   
-                    &__nav.links{grid-area: links; 
+                    &__links{grid-area: links; 
                     margin-right: 9px;}
     
-                    &__section.principal{grid-area: principal;
+                    &__principal{grid-area: principal;
                     margin-top: 139px;}
   
-                    &__div.cafe{grid-area: cafe; 
+                    &__cafe{grid-area: cafe; 
                    margin-left: 365px; 
                    display: flex;}
                 
-                   &__div.principal__slogan {grid-area: principal__slogan; 
+                   &__principal__slogan {grid-area: principal__slogan; 
                    margin-left: -865px; 
                    font-size: x-large;}
     
-                   &__div.principal__texto {grid-area: principal__texto; 
+                   &__principal__texto {grid-area: principal__texto; 
                     margin-bottom: -767px; 
                     margin-left: -268px;}
   
-                    &__div.segundo__subtitulo{grid-area: segundo__subtitulo; 
+                    &__segundo__subtitulo{grid-area: segundo__subtitulo; 
                     margin-right: -62px; 
                     margin-top: 239px;}
   
-                    &__div.segundo__texto{grid-area: segundo__texto; 
+                    &__segundo__texto{grid-area: segundo__texto; 
                     margin-left: 37px; 
                     display: inline-block; 
                     margin-top: -50px;}
   
-                    &__div.segundo__img{grid-area: segundo__img; 
+                    &__segundo__img{grid-area: segundo__img; 
                     height: 654px; display: flex; 
                     margin-left: -3px;}
   
-                    &__footer.pie{grid-area:pie;
+                    &__pie{grid-area:pie;
                     background-color: black;
                     padding: 11px;
                     height: 277px;
                     margin-right: -165px;
                     margin-left: -1024px;}
   
-                    &__form.formulario{grid-area: formulario; 
+                    &__formulario{grid-area: formulario; 
                     margin-left: 10px;}
   
-                    &__div.info{grid-area:info;
+                    &__info{grid-area:info;
                     text-align: right;
                     color: white;
                     height: -20px;
@@ -87,5 +87,3 @@
                         animation-iteration-count: infinite;    
                         animation-timing-function: ease-in;}
   }
-  
-  

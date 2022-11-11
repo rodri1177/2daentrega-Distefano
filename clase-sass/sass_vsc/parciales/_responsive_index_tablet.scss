@@ -2,48 +2,48 @@
 
 @media only screen and (min-width: 321px) and (max-width: 769px){
   
-    &__#grilla{
+    #grilla{
           display: grid;
         justify-content: center;
         grid-template-columns:1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "header" "principal" "segundo" "footer";}
   
-        &__header{grid-area: header; 
+        header{grid-area: header; 
                     margin-right: -1030px;}    
   
-                    &__div.header{grid-area: header; 
+                    &__header{grid-area: header; 
                     margin-left: 20px; 
                     margin-right:-223px;}
   
-                    &__nav.links{grid-area: links; 
+                    &__links{grid-area: links; 
                     margin-right: 8px;}
       
-                    &__div.cafe {grid-area: cafe;
+                    &__cafe {grid-area: cafe;
                     display: flex;
                     margin-left: 319px;
                     height: 256px;
                     margin-bottom: -133px;}
       
-                    &__div.principal__slogan {grid-area: principal__slogan;
+                    &__principal__slogan {grid-area: principal__slogan;
                     margin-left: -700px;
                     font-size: x-large;
                     width: 192px;}
   
-                    &__div.principal__texto {grid-area: principal__texto;
+                    &__principal__texto {grid-area: principal__texto;
                     margin-bottom: -705px;
                     margin-left: -422px;
                     margin-right: -243px;
                     text-align: justify;
                     width: 619px;}
       
-                    &__div.segundo__subtitulo{grid-area: segundo__subtitulo;
+                    &__segundo__subtitulo{grid-area: segundo__subtitulo;
                     grid-area: segundo__subtitulo;
                     margin-bottom: -7px;
                     margin-top: 333px;
                     margin-right: -246px;}
     
-                    &__div.segundo__texto{grid-area: segundo__texto;
+                    &__segundo__texto{grid-area: segundo__texto;
                     margin-left: 47px;
                     margin-left: -59px;
                     margin-right: -479px;
@@ -51,24 +51,24 @@
                     display: inline-block;
                     width: 854px;}
   
-                    &__div.segundo__img{grid-area: segundo__img;
+                    &__segundo__img{grid-area: segundo__img;
                     grid-area: segundo__img;
                     display: flex;
                     margin-left: 12px;
                     margin-right: -33px;
                     height: 420px;}
   
-                    &__footer.pie{grid-area:pie;
+                    &__pie{grid-area:pie;
                     background-color: black;
                     padding: 11px;
                     height: 277px;
                     margin-left: -769px;
                     margin-right: -478px;}
   
-                    &__form.formulario{grid-area: formulario;
+                    &__formulario{grid-area: formulario;
                     margin-left: 20px;}
       
-        &__div.info{grid-area: info;
+                    &__info{grid-area: info;
                     text-align: right;
                     color: white;
                     height: -20px;

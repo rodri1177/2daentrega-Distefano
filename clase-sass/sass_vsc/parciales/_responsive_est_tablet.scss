@@ -2,32 +2,55 @@
 
 @media only screen and (min-width: 321px) and (max-width: 769px){
 
-    &__#grilla3{
-      display: grid;
-      justify-content: center;
-      grid-template-columns:1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas: "header" "quinta" "footer";}
-      
-      &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-          width: 100%;
-          padding-right: var(--bs-gutter-x,.75rem);
-          padding-left: var(--bs-gutter-x,.75rem);
-          margin-right: 1px;
-          margin-left: -75px;}
-      
-      &__headest1{grid-area: headest1;
-          margin-left: 125px;}
+    #grilla3{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header" "tercera" "footer";}
     
-      &__links{grid-area: links;
-          margin-right: 1058px;}
-      
-      
-          &__pie__estudio{grid-area: pie__estudio;
-              background-color: black;
-              padding: 20px;
-              height: 360px;
-              margin-left: 77px;
-              margin-right: -20px;}     
-    }
+    &__container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      width: 100%;
+      padding-right: var(--bs-gutter-x,.75rem);
+      padding-left: var(--bs-gutter-x,.75rem);
+      margin-right: 1px;
+      margin-left: -75px;}
+      &__headest1{overflow: hidden;
+        margin-left: -5px;
+        margin-right: -178px;}
+        &__headest{margin-left: 650px;}
+    
+        &__links{margin-left: 188px;
+      display: contents;}
+      &__tercera__img {
+          display: flex;
+          justify-content: right;
+          height: 977px;
+          margin-right: -49px;}
+          &__tercera__img2 {
+            display: flex;
+            margin-top: -527px;
+            margin-left: 721px;}
+            &__tercera__img3 {
+              display: flex;
+              height: 300px;
+              margin-left: 770px;
+              margin-top: -679px;}
+              &__tercera__txt {
+                font-weight: 500;
+                display: flex;
+                margin-top: -159px;
+                text-align: justify;
+                margin-bottom: 0px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin-left: 785px;
+                width: 1191px;}
+                &__tercera__logo{margin-top: 574px;
+                  margin-bottom: 130px;
+                margin-left: 1286px;}
+                &__pie__estudio{overflow: hidden;
+      margin-left: 252px;}
+      &__formf{margin-left: 407px;} 
+        &__infoe {margin-right: -2px;}
+      }
     

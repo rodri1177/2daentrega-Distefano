@@ -1,14 +1,20 @@
-.columna{margin: 20px 20px 20px 20px;       
-    
-    &__columna__izq{height: 500px;
-                    display: flex;}
-    &__columna__cen{height: 500px;
-                    display: flex;        
-                    justify-content: center;    
-                    margin-top: -500px;}
-    &__columna__der{height: 500px;
-                    display: flex;
-                    margin-left: 850px;
-                    margin-top: -500px;
-                         }
+.columna{
+    margin: 20px 20px 20px 20px;           
+
+    &__columna__izq{
+        height: 500px;
+        display: flex;}
+
+    &__columna__cen{   
+        height: 500px;
+        display: flex;        
+        justify-content: center;    
+        margin-top: -500px;}
+
+    &__columna__der{
+        height: 500px;
+        display: flex;
+        margin-left: 850px;
+        margin-top: -500px;}
+
     }
