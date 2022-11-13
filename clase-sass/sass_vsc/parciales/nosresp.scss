@@ -1,0 +1,138 @@
+/*estilo desktop - - - - nosotros*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+    #grilla5{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header" "quinta" "footer";}
+  
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: 1px;
+        margin-left: -132px;}
+    
+        .tipnosotros{margin-left: 219px;}
+    .nosotros {overflow: hidden;
+      margin-left: -53px;
+      margin-right: -114px;}
+      .noslinks{margin-left: 692px;
+        display: flex;}
+      .quinta{margin-left: 20px;}
+      .quinta__img {width: 200px;
+        height: 558px;
+        display: flex;
+        margin-left: 462px;}
+        .quinta__txt{width: 930px;
+          margin-left: 496px;
+          margin-bottom: 2px;
+          margin-top: 23px;}
+      .pie__nosotros{margin-left: 245px;
+        height: 344px;} 
+        .formn{margin-left: 58px;}
+        .info {grid-area: info;
+          text-align: right;
+          color: white;
+          height: -20px;
+          font-size: x-large;
+          margin-top: -233px;
+          margin-right: 3px;}
+    
+  }
+  
+  
+  
+  /*estilo tablet - - - - nosotros*/
+  
+  @media only screen and (min-width: 321px) and (max-width: 769px){
+  
+  #grilla5{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "quinta" "footer";}
+  
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: 1px;
+    margin-left: -75px;}
+  
+    .tipnosotros{margin-left: 219px;}
+    .nosotros {margin-left: 181px;
+      margin-right: -170px;}
+      .noslinks{margin-left: 741px;
+        display: flex;}
+      .quinta{margin-left: 20px;}
+      .quinta__img {width: 200px;
+        height: 558px;
+        display: flex;
+        margin-left: 610px;}
+        .quinta__txt{width: 930px;
+          margin-left: 639px;
+          margin-bottom: 2px;
+          margin-top: 23px;}
+      .pie__nosotros{margin-left: 245px;
+        height: 344px;} 
+        .formn{margin-left: 226px;}
+        .info {grid-area: info;
+          text-align: right;
+          color: white;
+          height: -20px;
+          font-size: x-large;
+          margin-top: -233px;
+          margin-right: 3px;}
+  }
+  
+  
+  
+  /*estilo movil - - - - nosotros*/
+  
+  @media only screen and (max-width: 320px){
+  
+  #grilla5{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header" "quinta" "footer";}
+    
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            width: 100%;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            margin-right: 1px;
+            margin-left: -75px;}
+    
+            .nosotros {
+              margin-left: 663px;
+              margin-right: -90px;}
+              .quinta__img {
+                width: 200px;
+                height: 516px;
+                display: flex;
+                margin-left: 801px;}
+                .quinta__txt{width: 862px;
+                margin-left: 830px;}
+              .pie__nosotros{
+                margin-left: 166px;
+                height: 321px;} 
+               .formulario {
+                  grid-area: formulario;
+                  margin-left: 583px;}
+                .info {
+                  grid-area: info;
+                  text-align: right;
+                  color: white;
+                  height: -20px;
+                  font-size: x-large;
+                  margin-top: -233px;
+                  margin-right: 14px;}              
+  }
+  

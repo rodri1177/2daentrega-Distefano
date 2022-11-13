@@ -1,0 +1,176 @@
+/*estilo desktop - - - - estudio*/
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+
+    #grilla3{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header" "tercera" "footer";}
+  
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: 1px;
+        margin-left: -132px;}
+    
+        .headest1{overflow: hidden;
+          margin-left: -5px;
+        margin-right: 25px;}
+        .headest{margin-left: 1094px;}
+  
+    .linkse{grid-area: linkse;
+        margin-right: -24px;}
+        .tercera__img {
+          display: flex;
+          justify-content: right;
+          height: 977px;
+          margin-right: 350px;}
+          .tercera__img2 {
+            display: flex;
+            margin-top: -527px;
+            margin-left: 1486px;}
+            .tercera__img3 {
+              display: flex;
+              height: 300px;
+              margin-left: 1540px;
+              margin-top: -710px;}
+              .tercera__txt {
+                font-weight: 500;
+                display: flex;
+                margin-top: -159px;
+                text-align: justify;
+                margin-bottom: 0px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin-left: 1591px;
+                width: 1591px;}
+                .tercera__logo{margin-top: 600px;
+                  margin-bottom: 30px;
+                margin-left: 1310px;}
+    .pie__estudio{grid-area: pie__estudio;
+        background-color: black;
+        padding: 20px;
+        height: 360px;
+        margin-left: 108px;
+        margin-right: -20px;}
+        .formf{margin-left: 1055px;}       
+  }
+  
+  
+  
+  /*estilo tablet - - - - estudio*/
+  
+  @media only screen and (min-width: 321px) and (max-width: 769px){
+  
+  #grilla3{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header" "tercera" "footer";}
+  
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: 1px;
+    margin-left: -75px;}
+    .headest1{overflow: hidden;
+      margin-left: -5px;
+      margin-right: -178px;}
+      .headest{margin-left: 650px;}
+  
+  .links{margin-left: 188px;
+    display: contents;}
+      .tercera__img {
+        display: flex;
+        justify-content: right;
+        height: 977px;
+        margin-right: -49px;}
+        .tercera__img2 {
+          display: flex;
+          margin-top: -527px;
+          margin-left: 721px;}
+          .tercera__img3 {
+            display: flex;
+            height: 300px;
+            margin-left: 770px;
+            margin-top: -679px;}
+            .tercera__txt {
+              font-weight: 500;
+              display: flex;
+              margin-top: -159px;
+              text-align: justify;
+              margin-bottom: 0px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              margin-left: 785px;
+              width: 1191px;}
+              .tercera__logo{margin-top: 574px;
+                margin-bottom: 130px;
+              margin-left: 1286px;}
+  .pie__estudio{overflow: hidden;
+    margin-left: 252px;}
+      .formf{margin-left: 407px;} 
+      .infoe {margin-right: -2px;}
+    }
+  
+  
+  
+  /*estilo movil - - - - estudio*/
+  
+  @media only screen and (max-width: 320px){
+  
+  #grilla3{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header" "tercera" "footer";}
+    
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            width: 100%;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            margin-right: 1px;
+            margin-left: -75px;}
+            .headest1{margin-left: 95px;
+              margin-right: -102px;}
+              .headest{margin-left: 650px;}
+          
+          .links{grid-area: links;
+              margin-right: 1084px;}
+              .tercera__img {
+                display: flex;
+                justify-content: right;
+                height: 977px;
+                margin-right: 9px;}
+                .tercera__img2 {
+                  display: flex;
+                  margin-top: 486px;
+                  margin-left: 1043px;
+                  height: 436px;}
+                  .tercera__img3 {height: 434px;
+                    display: flex;
+                    margin-left: 1042px;
+                    margin-top: -900px;}
+                    .tercera__txt {
+                      font-weight: 500;
+                      display: flex;
+                      margin-top: -159px;
+                      text-align: justify;
+                      margin-bottom: 0px;
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                      margin-left: 918px;
+                      width: 853px;
+                    font-size: xxx-large;}
+                      .tercera__logo{margin-top: 500px;
+                        margin-bottom: 130px;
+                      margin-left: 1202px;}
+          .pie__estudio{overflow: hidden;
+            margin-left: 169px;}
+              .formf{margin-left: 83px;} 
+              .infoe {margin-right: -12px;}
+  }
+  

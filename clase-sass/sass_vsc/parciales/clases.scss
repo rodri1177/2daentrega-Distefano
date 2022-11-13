@@ -1,80 +1,107 @@
+/*clases*/
+
 .segunda{    
     padding: 12px 5px 20px 8px;
-    
-&__segunda__columna__izq{
+  }   
+  
+  .segunda__columna__izq{
   height: 400px;
   display: flex;
   margin-left: -12px;}    
   
-&__segunda__columna__cen1{   
+  .segunda__columna__cen1{   
     height: 335px;
     width: 83px;
     margin-left: 478px;
     display: flex;
     justify-content: center;
-    margin-top: -367px;}
+    margin-top: -367px;
+  }
   
-&__segunda__columna__cen2{   
+  .segunda__columna__cen2{   
     height: 336px;
     width: 821px;
     margin-left: 466px;
     display: flex;
     justify-content: center;
-    margin-top: -336px;}
+    margin-top: -336px;
+  }
   
-&__segunda__columna__der{
+  .segunda__columna__der{
     display: flex;
     height: 300px;
     margin-left: 1009px;
     width: 300px;
     margin-top: -317px;
     margin-top: 20-900px;
-    margin-top: -900;    }
+    margin-top: -900;    
+  }
   
-&__segunda__centro{            
-        margin-top: 40px;}
+  .segunda__centro{            
+        margin-top: 40px;
+  }
   
-&__segunda__centro__subt{
+  .segunda__centro__subt{
   color: blue;
   font-weight: 700;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: large;
   text-align: center;
-  height: 40px;}
+  height: 40px;
+  }
   
-&__segunda__centro__img{
+  .segunda__centro__img{
     display: flex;
     height: 348px;
     margin-left: 399px;
-    margin-bottom: 2px;}
+    margin-bottom: 2px;
+  }
   
-&__segunda__centro__txtizq{
+  .segunda__centro__txtizq{
     font-weight: 700;
     display: flex;
     justify-content: start;
     margin-left: 80px;
     margin-top: -300px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
   
-&__segunda__centro__txtizq2{
+  .segunda__centro__txtizq2{
     font-weight: 700;
     display: flex;
     justify-content: left;
     margin-left: 89px;    
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
   
-&__segunda__centro__txtizq3{
+  .segunda__centro__txtizq3{
     font-weight: 700;
     display: flex;
     justify-content: left;
     margin-left: 93px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
   
-&__segunda__centro__txtder{
+  .segunda__centro__txtder{
     font-weight: 700;
     display: flex;
     margin-top: -107px;
     justify-content: right;
     margin-right: 103px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .pie__clases{
+  background-color: black;
+  padding: 20px;
+  height: 338px;
+  margin-top: 272px;
+  }
+  
+  .formulario__c{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: table-caption;
+        color:white;
+        background-color: black;
+    }
+  
